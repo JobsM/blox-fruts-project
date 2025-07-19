@@ -44,7 +44,7 @@ body {
 
 .thumbnails {
     display: flex;
-    gap: 15px; /* espaço entre as imagens */
+    gap: 14px; /* espaço entre as imagens */
     justify-content: center; /* centraliza horizontalmente */
     margin-bottom: 15px;
 }
@@ -63,7 +63,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
-    align-items: center;
+    
 }
 
 .span-div {
