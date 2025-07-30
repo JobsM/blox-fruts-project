@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -17,6 +16,29 @@ body {
     justify-content: center;
     
 }
+
+.comprar-btn {
+    background-color: #0fe440;
+    color: white;
+    margin-left: 25px;
+    padding: 20px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.comprar-btn:hover {
+    background-color: #1aa739;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
 
 #pix-btn {
     background-color: #00ff0d;
@@ -72,7 +94,7 @@ body {
 }
 
 .price {
-    color: #ffd900;
+    color: #f7f7f7;
     font-weight: bold;
     font-size: 25px;
     text-shadow: 6px 3px 2px rgba(0, 0, 0, 0.5);
@@ -164,7 +186,7 @@ body {
 }
 
 .price-table th, .price-table td {
-    border: 1px solid #ffe600;
+    border: 1px solid #ffee00;
     border-radius: 4px;
     padding: 10px;
     text-align: left;
@@ -176,8 +198,16 @@ body {
     color: #121212;
 }
 
+.price-table .payment {
+    background-color: #23ec34;
+    color: #121212;
+    text-align: center;
+}
+
 .price-table tr:hover {
     background-color: rgba(0, 68, 47, 0.123);
 }
+
+
 
 
