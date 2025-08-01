@@ -21,6 +21,7 @@ body {
     background-color: #0fe440;
     color: white;
     margin-left: 25px;
+    margin-top: 2px;
     padding: 20px 20px;
     font-size: 15px;
     font-weight: bold;
@@ -37,6 +38,22 @@ body {
     background-color: #1aa739;
     transform: scale(1.05);
     cursor: pointer;
+}
+
+.comprar-person {
+    
+    background-color: #0fe440;
+    color: white;
+    padding: 20px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
 
@@ -145,7 +162,7 @@ body {
 
 .social-links img {
     text-decoration: none;
-    border-radius: 72%;
+    border-radius: 74%;
 }
 
 .social-links a img {
@@ -163,6 +180,11 @@ body {
 .social-links a .tiktok-ico:hover {
     transform: scale(1.1);
     box-shadow: 0 0 50px rgba(255, 0, 0, 0.945);
+}
+
+.social-links a .roblox-ico:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.7);
 }
 
 
@@ -207,7 +229,5 @@ body {
 .price-table tr:hover {
     background-color: rgba(0, 68, 47, 0.123);
 }
-
-
 
 
